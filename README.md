@@ -69,11 +69,10 @@ Based on what I found, I designed a new setup with:
 - [x] Improved architecture diagram and description (Task 4)
 - [x] Reflection on what I learned
 
-## References
+## My References
 
 - AWS Well-Architected Framework: https://aws.amazon.com/architecture/well-architected/
 - AWS Cloud Adoption Framework: https://aws.amazon.com/professional-services/CAF/
 
 ---
 
-*Cloud Engineering Fundamentals Project - February 2026*
