@@ -63,17 +63,12 @@ Based on what I found, I designed a new setup with:
 
 ## Deliverables Completed
 
-- [x] WAF assessment table (Task 2)
-
-- [x] CAF readiness summary for all six perspectives (Task 3)
-- [x] Improved architecture diagram and description (Task 4)
-- [x] Reflection on what I learned
+- WAF assessment table (Task 2)
+- CAF readiness summary for all six perspectives (Task 3)
+- Improved architecture diagram and description (Task 4)
+- Reflection on what I learned
 
 ## References
 
 - AWS Well-Architected Framework: https://aws.amazon.com/architecture/well-architected/
 - AWS Cloud Adoption Framework: https://aws.amazon.com/professional-services/CAF/
-
----
-
-*Cloud Engineering Fundamentals Project - February 2026*
