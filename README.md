@@ -9,7 +9,7 @@ This project is an assessment of migrating a two-tier web application to AWS. Th
 ```
 README.md                      - This file
 aws_waf_caf_assessment.md      - Main report with all tasks completed
-architecture-diagram.png       - Visual diagram of the new architecture
+architecture_diagram.drawio.png      - Visual diagram of the new architecture
 ```
 
 ## My Approach
