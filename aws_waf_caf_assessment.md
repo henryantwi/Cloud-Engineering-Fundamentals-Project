@@ -143,53 +143,7 @@ The new design fixes the problems found in the assessment. It spreads the applic
 
 ### Architecture Diagram
 
-```
-                              USERS
-                                |
-                                v
-                    +-------------------+
-                    |   CloudFront CDN  |
-                    +-------------------+
-                                |
-                                v
-                    +-------------------+
-                    |     AWS WAF       |
-                    +-------------------+
-                                |
-                                v
-                    +-------------------+
-                    |  Load Balancer    |
-                    +-------------------+
-                         /         \
-                        v           v
-            +-----------+           +-----------+
-            |   AZ-A    |           |   AZ-B    |
-            +-----------+           +-----------+
-            | Public    |           | Public    |
-            | Subnet    |           | Subnet    |
-            | (NAT GW)  |           | (NAT GW)  |
-            +-----------+           +-----------+
-            | Private   |           | Private   |
-            | Subnet    |           | Subnet    |
-            | (EC2)     |           | (EC2)     |
-            +-----------+           +-----------+
-            | Database  |           | Database  |
-            | Subnet    |           | Subnet    |
-            | (RDS      |           | (RDS      |
-            | Primary)  |           | Standby)  |
-            +-----------+           +-----------+
-                        \           /
-                         v         v
-                    +-------------------+
-                    |   ElastiCache     |
-                    +-------------------+
-                                |
-                    +-------------------+
-                    |   S3 (Backups)    |
-                    +-------------------+
-
-        Monitoring: CloudWatch | CloudTrail | Config
-```
+![]
 
 ### Key Components
 
