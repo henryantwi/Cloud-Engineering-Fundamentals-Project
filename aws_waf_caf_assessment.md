@@ -143,7 +143,7 @@ The new design fixes the problems found in the assessment. It spreads the applic
 
 ### Architecture Diagram
 
-![]
+![Architecture Diagram](images/architecture_diagram.drawio.png)
 
 ### Key Components
 
