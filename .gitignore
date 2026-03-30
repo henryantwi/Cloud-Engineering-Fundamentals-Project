@@ -1,2 +1,5 @@
 .temp/
 .gitignore
+.agents/
+architecture_diagram_corrected.drawio
+architecture_diagram.webp
